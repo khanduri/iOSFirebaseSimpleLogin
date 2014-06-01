@@ -1,21 +1,34 @@
 //
 //  AppDelegate.m
-//  iOSFirebaseSimpleLogin
+//  Up100
 //
-//  Created by Prashant Khanduri on 6/1/14.
-//  Copyright (c) 2014 KDeal. All rights reserved.
+//  Created by Prashant Khanduri on 5/30/14.
+//
 //
 
 #import "AppDelegate.h"
+#import <FacebookSDK/FacebookSDK.h>
+#import <Firebase/Firebase.h>
+#import <FirebaseSimpleLogin/FirebaseSimpleLogin.h>
+
 
 @implementation AppDelegate
 
+// In your AppDelegate.m file, you must handle redirects from Facebook to your application
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url
+  sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
+    BOOL wasHandled = [FBAppCall handleOpenURL:url sourceApplication:sourceApplication];
+    
+    // add any app-specific handling code here
+    NSLog(@"AppDelegate: openUrl triggered");
+    
+    
+    return wasHandled;
+}
+
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
     return YES;
 }
 
@@ -27,7 +40,7 @@
 
 - (void)applicationDidEnterBackground:(UIApplication *)application
 {
-    // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later. 
+    // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
     // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
 }
 

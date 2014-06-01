@@ -19,6 +19,21 @@
 		018C0E47193BC6F800D2424B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 018C0E2F193BC6F700D2424B /* UIKit.framework */; };
 		018C0E4F193BC6F800D2424B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 018C0E4D193BC6F800D2424B /* InfoPlist.strings */; };
 		018C0E51193BC6F800D2424B /* iOSFirebaseSimpleLoginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 018C0E50193BC6F800D2424B /* iOSFirebaseSimpleLoginTests.m */; };
+		018C0E5B193BC89100D2424B /* FirebaseSimpleLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 018C0E5A193BC89100D2424B /* FirebaseSimpleLogin.framework */; };
+		018C0E5D193BC8FE00D2424B /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 018C0E5C193BC8FE00D2424B /* Social.framework */; };
+		018C0E5F193BC90300D2424B /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 018C0E5E193BC90300D2424B /* Accounts.framework */; };
+		018C0E61193BC90D00D2424B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 018C0E60193BC90D00D2424B /* SystemConfiguration.framework */; };
+		018C0E63193BC92100D2424B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 018C0E62193BC92100D2424B /* Security.framework */; };
+		018C0E65193BC93B00D2424B /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 018C0E64193BC93A00D2424B /* CFNetwork.framework */; };
+		018C0E67193BC95100D2424B /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 018C0E66193BC95100D2424B /* libc++.dylib */; };
+		018C0E69193BC97000D2424B /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 018C0E68193BC97000D2424B /* libicucore.dylib */; };
+		018C0E70193BC9CD00D2424B /* FirebaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 018C0E6F193BC9CD00D2424B /* FirebaseManager.m */; };
+		018C0E73193BC9DE00D2424B /* UIImage+Embross.m in Sources */ = {isa = PBXBuildFile; fileRef = 018C0E72193BC9DE00D2424B /* UIImage+Embross.m */; };
+		018C0E78193BC9E800D2424B /* GatewayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 018C0E75193BC9E800D2424B /* GatewayViewController.m */; };
+		018C0E79193BC9E800D2424B /* LoggedInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 018C0E77193BC9E800D2424B /* LoggedInViewController.m */; };
+		018C0E7C193BC9F200D2424B /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 018C0E7B193BC9F200D2424B /* Constants.m */; };
+		018C0E7E193BCAAA00D2424B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 018C0E7D193BCAAA00D2424B /* Main.storyboard */; };
+		070D286FC54A4F5EA00C98C4 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B38C3B13EA64ED5AD72E23C /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +63,27 @@
 		018C0E4C193BC6F800D2424B /* iOSFirebaseSimpleLoginTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSFirebaseSimpleLoginTests-Info.plist"; sourceTree = "<group>"; };
 		018C0E4E193BC6F800D2424B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		018C0E50193BC6F800D2424B /* iOSFirebaseSimpleLoginTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSFirebaseSimpleLoginTests.m; sourceTree = "<group>"; };
+		018C0E5A193BC89100D2424B /* FirebaseSimpleLogin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseSimpleLogin.framework; sourceTree = "<group>"; };
+		018C0E5C193BC8FE00D2424B /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		018C0E5E193BC90300D2424B /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		018C0E60193BC90D00D2424B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		018C0E62193BC92100D2424B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		018C0E64193BC93A00D2424B /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		018C0E66193BC95100D2424B /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		018C0E68193BC97000D2424B /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		018C0E6E193BC9CD00D2424B /* FirebaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirebaseManager.h; sourceTree = "<group>"; };
+		018C0E6F193BC9CD00D2424B /* FirebaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirebaseManager.m; sourceTree = "<group>"; };
+		018C0E71193BC9DE00D2424B /* UIImage+Embross.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Embross.h"; sourceTree = "<group>"; };
+		018C0E72193BC9DE00D2424B /* UIImage+Embross.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Embross.m"; sourceTree = "<group>"; };
+		018C0E74193BC9E800D2424B /* GatewayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GatewayViewController.h; sourceTree = "<group>"; };
+		018C0E75193BC9E800D2424B /* GatewayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GatewayViewController.m; sourceTree = "<group>"; };
+		018C0E76193BC9E800D2424B /* LoggedInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoggedInViewController.h; sourceTree = "<group>"; };
+		018C0E77193BC9E800D2424B /* LoggedInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoggedInViewController.m; sourceTree = "<group>"; };
+		018C0E7A193BC9F200D2424B /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		018C0E7B193BC9F200D2424B /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		018C0E7D193BCAAA00D2424B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		7D4E620BF6F741AE9D41E928 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		9B38C3B13EA64ED5AD72E23C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,9 +91,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				018C0E5D193BC8FE00D2424B /* Social.framework in Frameworks */,
+				018C0E5F193BC90300D2424B /* Accounts.framework in Frameworks */,
+				018C0E5B193BC89100D2424B /* FirebaseSimpleLogin.framework in Frameworks */,
+				018C0E61193BC90D00D2424B /* SystemConfiguration.framework in Frameworks */,
+				018C0E63193BC92100D2424B /* Security.framework in Frameworks */,
+				018C0E65193BC93B00D2424B /* CFNetwork.framework in Frameworks */,
+				018C0E67193BC95100D2424B /* libc++.dylib in Frameworks */,
+				018C0E69193BC97000D2424B /* libicucore.dylib in Frameworks */,
 				018C0E2E193BC6F700D2424B /* CoreGraphics.framework in Frameworks */,
 				018C0E30193BC6F700D2424B /* UIKit.framework in Frameworks */,
 				018C0E2C193BC6F700D2424B /* Foundation.framework in Frameworks */,
+				070D286FC54A4F5EA00C98C4 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +126,7 @@
 				018C0E4A193BC6F800D2424B /* iOSFirebaseSimpleLoginTests */,
 				018C0E2A193BC6F700D2424B /* Frameworks */,
 				018C0E29193BC6F700D2424B /* Products */,
+				7D4E620BF6F741AE9D41E928 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,10 +142,19 @@
 		018C0E2A193BC6F700D2424B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				018C0E68193BC97000D2424B /* libicucore.dylib */,
+				018C0E66193BC95100D2424B /* libc++.dylib */,
+				018C0E64193BC93A00D2424B /* CFNetwork.framework */,
+				018C0E62193BC92100D2424B /* Security.framework */,
+				018C0E60193BC90D00D2424B /* SystemConfiguration.framework */,
+				018C0E5E193BC90300D2424B /* Accounts.framework */,
+				018C0E5C193BC8FE00D2424B /* Social.framework */,
+				018C0E5A193BC89100D2424B /* FirebaseSimpleLogin.framework */,
 				018C0E2B193BC6F700D2424B /* Foundation.framework */,
 				018C0E2D193BC6F700D2424B /* CoreGraphics.framework */,
 				018C0E2F193BC6F700D2424B /* UIKit.framework */,
 				018C0E44193BC6F800D2424B /* XCTest.framework */,
+				9B38C3B13EA64ED5AD72E23C /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -107,8 +162,12 @@
 		018C0E31193BC6F700D2424B /* iOSFirebaseSimpleLogin */ = {
 			isa = PBXGroup;
 			children = (
+				018C0E6D193BC9B000D2424B /* ViewControllers */,
+				018C0E6C193BC9A900D2424B /* Categories */,
+				018C0E6B193BC9A500D2424B /* Utilities */,
 				018C0E3A193BC6F700D2424B /* AppDelegate.h */,
 				018C0E3B193BC6F700D2424B /* AppDelegate.m */,
+				018C0E7D193BCAAA00D2424B /* Main.storyboard */,
 				018C0E3D193BC6F700D2424B /* Images.xcassets */,
 				018C0E32193BC6F700D2424B /* Supporting Files */,
 			);
@@ -144,6 +203,37 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		018C0E6B193BC9A500D2424B /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				018C0E7A193BC9F200D2424B /* Constants.h */,
+				018C0E7B193BC9F200D2424B /* Constants.m */,
+				018C0E6E193BC9CD00D2424B /* FirebaseManager.h */,
+				018C0E6F193BC9CD00D2424B /* FirebaseManager.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		018C0E6C193BC9A900D2424B /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				018C0E71193BC9DE00D2424B /* UIImage+Embross.h */,
+				018C0E72193BC9DE00D2424B /* UIImage+Embross.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		018C0E6D193BC9B000D2424B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				018C0E74193BC9E800D2424B /* GatewayViewController.h */,
+				018C0E75193BC9E800D2424B /* GatewayViewController.m */,
+				018C0E76193BC9E800D2424B /* LoggedInViewController.h */,
+				018C0E77193BC9E800D2424B /* LoggedInViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -151,9 +241,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 018C0E54193BC6F800D2424B /* Build configuration list for PBXNativeTarget "iOSFirebaseSimpleLogin" */;
 			buildPhases = (
+				DC7058C4E9614C5EB1303FD5 /* Check Pods Manifest.lock */,
 				018C0E24193BC6F700D2424B /* Sources */,
 				018C0E25193BC6F700D2424B /* Frameworks */,
 				018C0E26193BC6F700D2424B /* Resources */,
+				C8DC4BCB24164526B2E2C892 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -219,6 +311,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				018C0E7E193BCAAA00D2424B /* Main.storyboard in Resources */,
 				018C0E36193BC6F700D2424B /* InfoPlist.strings in Resources */,
 				018C0E3E193BC6F700D2424B /* Images.xcassets in Resources */,
 			);
@@ -234,13 +327,51 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C8DC4BCB24164526B2E2C892 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC7058C4E9614C5EB1303FD5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		018C0E24193BC6F700D2424B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				018C0E70193BC9CD00D2424B /* FirebaseManager.m in Sources */,
 				018C0E3C193BC6F700D2424B /* AppDelegate.m in Sources */,
 				018C0E38193BC6F700D2424B /* main.m in Sources */,
+				018C0E73193BC9DE00D2424B /* UIImage+Embross.m in Sources */,
+				018C0E78193BC9E800D2424B /* GatewayViewController.m in Sources */,
+				018C0E7C193BC9F200D2424B /* Constants.m in Sources */,
+				018C0E79193BC9E800D2424B /* LoggedInViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,9 +485,15 @@
 		};
 		018C0E55193BC6F800D2424B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D4E620BF6F741AE9D41E928 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iOSFirebaseSimpleLogin/iOSFirebaseSimpleLogin-Prefix.pch";
 				INFOPLIST_FILE = "iOSFirebaseSimpleLogin/iOSFirebaseSimpleLogin-Info.plist";
@@ -367,9 +504,15 @@
 		};
 		018C0E56193BC6F800D2424B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D4E620BF6F741AE9D41E928 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iOSFirebaseSimpleLogin/iOSFirebaseSimpleLogin-Prefix.pch";
 				INFOPLIST_FILE = "iOSFirebaseSimpleLogin/iOSFirebaseSimpleLogin-Info.plist";
@@ -437,6 +580,7 @@
 				018C0E56193BC6F800D2424B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		018C0E57193BC6F800D2424B /* Build configuration list for PBXNativeTarget "iOSFirebaseSimpleLoginTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +589,7 @@
 				018C0E59193BC6F800D2424B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
