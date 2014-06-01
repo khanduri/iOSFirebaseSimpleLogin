@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		018C0E2C193BC6F700D2424B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 018C0E2B193BC6F700D2424B /* Foundation.framework */; };
+		018C0E2E193BC6F700D2424B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 018C0E2D193BC6F700D2424B /* CoreGraphics.framework */; };
+		018C0E30193BC6F700D2424B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 018C0E2F193BC6F700D2424B /* UIKit.framework */; };
+		018C0E36193BC6F700D2424B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 018C0E34193BC6F700D2424B /* InfoPlist.strings */; };
+		018C0E38193BC6F700D2424B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 018C0E37193BC6F700D2424B /* main.m */; };
+		018C0E3C193BC6F700D2424B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 018C0E3B193BC6F700D2424B /* AppDelegate.m */; };
+		018C0E3E193BC6F700D2424B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 018C0E3D193BC6F700D2424B /* Images.xcassets */; };
+		018C0E45193BC6F800D2424B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 018C0E44193BC6F800D2424B /* XCTest.framework */; };
+		018C0E46193BC6F800D2424B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 018C0E2B193BC6F700D2424B /* Foundation.framework */; };
+		018C0E47193BC6F800D2424B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 018C0E2F193BC6F700D2424B /* UIKit.framework */; };
+		018C0E4F193BC6F800D2424B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 018C0E4D193BC6F800D2424B /* InfoPlist.strings */; };
+		018C0E51193BC6F800D2424B /* iOSFirebaseSimpleLoginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 018C0E50193BC6F800D2424B /* iOSFirebaseSimpleLoginTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		018C0E48193BC6F800D2424B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 018C0E20193BC6F700D2424B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 018C0E27193BC6F700D2424B;
+			remoteInfo = iOSFirebaseSimpleLogin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		018C0E28193BC6F700D2424B /* iOSFirebaseSimpleLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSFirebaseSimpleLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		018C0E2B193BC6F700D2424B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		018C0E2D193BC6F700D2424B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		018C0E2F193BC6F700D2424B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		018C0E33193BC6F700D2424B /* iOSFirebaseSimpleLogin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSFirebaseSimpleLogin-Info.plist"; sourceTree = "<group>"; };
+		018C0E35193BC6F700D2424B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		018C0E37193BC6F700D2424B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		018C0E39193BC6F700D2424B /* iOSFirebaseSimpleLogin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOSFirebaseSimpleLogin-Prefix.pch"; sourceTree = "<group>"; };
+		018C0E3A193BC6F700D2424B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		018C0E3B193BC6F700D2424B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		018C0E3D193BC6F700D2424B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		018C0E43193BC6F800D2424B /* iOSFirebaseSimpleLoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSFirebaseSimpleLoginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		018C0E44193BC6F800D2424B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		018C0E4C193BC6F800D2424B /* iOSFirebaseSimpleLoginTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSFirebaseSimpleLoginTests-Info.plist"; sourceTree = "<group>"; };
+		018C0E4E193BC6F800D2424B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		018C0E50193BC6F800D2424B /* iOSFirebaseSimpleLoginTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSFirebaseSimpleLoginTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		018C0E25193BC6F700D2424B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				018C0E2E193BC6F700D2424B /* CoreGraphics.framework in Frameworks */,
+				018C0E30193BC6F700D2424B /* UIKit.framework in Frameworks */,
+				018C0E2C193BC6F700D2424B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		018C0E40193BC6F800D2424B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				018C0E45193BC6F800D2424B /* XCTest.framework in Frameworks */,
+				018C0E47193BC6F800D2424B /* UIKit.framework in Frameworks */,
+				018C0E46193BC6F800D2424B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		018C0E1F193BC6F700D2424B = {
+			isa = PBXGroup;
+			children = (
+				018C0E31193BC6F700D2424B /* iOSFirebaseSimpleLogin */,
+				018C0E4A193BC6F800D2424B /* iOSFirebaseSimpleLoginTests */,
+				018C0E2A193BC6F700D2424B /* Frameworks */,
+				018C0E29193BC6F700D2424B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		018C0E29193BC6F700D2424B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				018C0E28193BC6F700D2424B /* iOSFirebaseSimpleLogin.app */,
+				018C0E43193BC6F800D2424B /* iOSFirebaseSimpleLoginTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		018C0E2A193BC6F700D2424B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				018C0E2B193BC6F700D2424B /* Foundation.framework */,
+				018C0E2D193BC6F700D2424B /* CoreGraphics.framework */,
+				018C0E2F193BC6F700D2424B /* UIKit.framework */,
+				018C0E44193BC6F800D2424B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		018C0E31193BC6F700D2424B /* iOSFirebaseSimpleLogin */ = {
+			isa = PBXGroup;
+			children = (
+				018C0E3A193BC6F700D2424B /* AppDelegate.h */,
+				018C0E3B193BC6F700D2424B /* AppDelegate.m */,
+				018C0E3D193BC6F700D2424B /* Images.xcassets */,
+				018C0E32193BC6F700D2424B /* Supporting Files */,
+			);
+			path = iOSFirebaseSimpleLogin;
+			sourceTree = "<group>";
+		};
+		018C0E32193BC6F700D2424B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				018C0E33193BC6F700D2424B /* iOSFirebaseSimpleLogin-Info.plist */,
+				018C0E34193BC6F700D2424B /* InfoPlist.strings */,
+				018C0E37193BC6F700D2424B /* main.m */,
+				018C0E39193BC6F700D2424B /* iOSFirebaseSimpleLogin-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		018C0E4A193BC6F800D2424B /* iOSFirebaseSimpleLoginTests */ = {
+			isa = PBXGroup;
+			children = (
+				018C0E50193BC6F800D2424B /* iOSFirebaseSimpleLoginTests.m */,
+				018C0E4B193BC6F800D2424B /* Supporting Files */,
+			);
+			path = iOSFirebaseSimpleLoginTests;
+			sourceTree = "<group>";
+		};
+		018C0E4B193BC6F800D2424B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				018C0E4C193BC6F800D2424B /* iOSFirebaseSimpleLoginTests-Info.plist */,
+				018C0E4D193BC6F800D2424B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		018C0E27193BC6F700D2424B /* iOSFirebaseSimpleLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 018C0E54193BC6F800D2424B /* Build configuration list for PBXNativeTarget "iOSFirebaseSimpleLogin" */;
+			buildPhases = (
+				018C0E24193BC6F700D2424B /* Sources */,
+				018C0E25193BC6F700D2424B /* Frameworks */,
+				018C0E26193BC6F700D2424B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSFirebaseSimpleLogin;
+			productName = iOSFirebaseSimpleLogin;
+			productReference = 018C0E28193BC6F700D2424B /* iOSFirebaseSimpleLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		018C0E42193BC6F800D2424B /* iOSFirebaseSimpleLoginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 018C0E57193BC6F800D2424B /* Build configuration list for PBXNativeTarget "iOSFirebaseSimpleLoginTests" */;
+			buildPhases = (
+				018C0E3F193BC6F800D2424B /* Sources */,
+				018C0E40193BC6F800D2424B /* Frameworks */,
+				018C0E41193BC6F800D2424B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				018C0E49193BC6F800D2424B /* PBXTargetDependency */,
+			);
+			name = iOSFirebaseSimpleLoginTests;
+			productName = iOSFirebaseSimpleLoginTests;
+			productReference = 018C0E43193BC6F800D2424B /* iOSFirebaseSimpleLoginTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		018C0E20193BC6F700D2424B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = KDeal;
+				TargetAttributes = {
+					018C0E42193BC6F800D2424B = {
+						TestTargetID = 018C0E27193BC6F700D2424B;
+					};
+				};
+			};
+			buildConfigurationList = 018C0E23193BC6F700D2424B /* Build configuration list for PBXProject "iOSFirebaseSimpleLogin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 018C0E1F193BC6F700D2424B;
+			productRefGroup = 018C0E29193BC6F700D2424B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				018C0E27193BC6F700D2424B /* iOSFirebaseSimpleLogin */,
+				018C0E42193BC6F800D2424B /* iOSFirebaseSimpleLoginTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		018C0E26193BC6F700D2424B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				018C0E36193BC6F700D2424B /* InfoPlist.strings in Resources */,
+				018C0E3E193BC6F700D2424B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		018C0E41193BC6F800D2424B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				018C0E4F193BC6F800D2424B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		018C0E24193BC6F700D2424B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				018C0E3C193BC6F700D2424B /* AppDelegate.m in Sources */,
+				018C0E38193BC6F700D2424B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		018C0E3F193BC6F800D2424B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				018C0E51193BC6F800D2424B /* iOSFirebaseSimpleLoginTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		018C0E49193BC6F800D2424B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 018C0E27193BC6F700D2424B /* iOSFirebaseSimpleLogin */;
+			targetProxy = 018C0E48193BC6F800D2424B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		018C0E34193BC6F700D2424B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				018C0E35193BC6F700D2424B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		018C0E4D193BC6F800D2424B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				018C0E4E193BC6F800D2424B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		018C0E52193BC6F800D2424B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		018C0E53193BC6F800D2424B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		018C0E55193BC6F800D2424B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSFirebaseSimpleLogin/iOSFirebaseSimpleLogin-Prefix.pch";
+				INFOPLIST_FILE = "iOSFirebaseSimpleLogin/iOSFirebaseSimpleLogin-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		018C0E56193BC6F800D2424B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSFirebaseSimpleLogin/iOSFirebaseSimpleLogin-Prefix.pch";
+				INFOPLIST_FILE = "iOSFirebaseSimpleLogin/iOSFirebaseSimpleLogin-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		018C0E58193BC6F800D2424B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOSFirebaseSimpleLogin.app/iOSFirebaseSimpleLogin";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSFirebaseSimpleLogin/iOSFirebaseSimpleLogin-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iOSFirebaseSimpleLoginTests/iOSFirebaseSimpleLoginTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		018C0E59193BC6F800D2424B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOSFirebaseSimpleLogin.app/iOSFirebaseSimpleLogin";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSFirebaseSimpleLogin/iOSFirebaseSimpleLogin-Prefix.pch";
+				INFOPLIST_FILE = "iOSFirebaseSimpleLoginTests/iOSFirebaseSimpleLoginTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		018C0E23193BC6F700D2424B /* Build configuration list for PBXProject "iOSFirebaseSimpleLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				018C0E52193BC6F800D2424B /* Debug */,
+				018C0E53193BC6F800D2424B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		018C0E54193BC6F800D2424B /* Build configuration list for PBXNativeTarget "iOSFirebaseSimpleLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				018C0E55193BC6F800D2424B /* Debug */,
+				018C0E56193BC6F800D2424B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		018C0E57193BC6F800D2424B /* Build configuration list for PBXNativeTarget "iOSFirebaseSimpleLoginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				018C0E58193BC6F800D2424B /* Debug */,
+				018C0E59193BC6F800D2424B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 018C0E20193BC6F700D2424B /* Project object */;
+}
